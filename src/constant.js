@@ -1,0 +1,51 @@
+const data = [
+  {
+    id: "151",
+    author: "Edoardo Loru",
+    width: 4288,
+    height: 3216,
+    url: "https://unsplash.com/photos/xPfj_Kdcal4",
+    download_url: "https://picsum.photos/id/151/4288/3216",
+  },
+  {
+    id: "152",
+    author: "Steven Spassov",
+    width: 3888,
+    height: 2592,
+    url: "https://unsplash.com/photos/tVIqMgGlAG0",
+    download_url: "https://picsum.photos/id/152/3888/2592",
+  },
+  {
+    id: "153",
+    author: "Charlie Foster",
+    width: 4763,
+    height: 3155,
+    url: "https://unsplash.com/photos/xpkmxDGPz0Y",
+    download_url: "https://picsum.photos/id/153/4763/3155",
+  },
+  {
+    id: "154",
+    author: "Christopher Sardegna",
+    width: 3264,
+    height: 2176,
+    url: "https://unsplash.com/photos/x_jTtMOOMd4",
+    download_url: "https://picsum.photos/id/154/3264/2176",
+  },
+  {
+    id: "155",
+    author: "Christopher Sardegna",
+    width: 3264,
+    height: 2176,
+    url: "https://unsplash.com/photos/4f7r1LuPYj8",
+    download_url: "https://picsum.photos/id/155/3264/2176",
+  },
+  {
+    id: "156",
+    author: "Christopher Sardegna",
+    width: 2177,
+    height: 3264,
+    url: "https://unsplash.com/photos/iRyGmA_no2Q",
+    download_url: "https://picsum.photos/id/156/2177/3264",
+  },
+];
+export default data;
