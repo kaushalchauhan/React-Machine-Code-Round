@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import data from "../constant";
 const ImageSlider = () => {
   const [activeImgIndex, setActiveImgIndex] = useState(0);
-  const [imgLoad, setImgLoad] = useState(false);
 
   const handelPrevImgBtn = () => {
     setActiveImgIndex(!activeImgIndex ? data.length - 1 : activeImgIndex - 1);
@@ -20,10 +19,6 @@ const ImageSlider = () => {
     };
   }, [activeImgIndex]);
 
-  const handleImgLoad = () => {
-    setImgLoad(true);
-  };
-
   return (
     <div className="flex justify-center">
       <button
@@ -36,7 +31,6 @@ const ImageSlider = () => {
         <>
           <div>
             <img
-              onLoad={handleImgLoad}
               key={img.url}
               className={
                 "w-[550px] h-[550px] object-contain image-fade " +
